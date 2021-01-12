@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title>search</title>
+		<style type="text/css">
+			@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+			body{
+			  background: #f2f2f2;
+			  font-family: 'Open Sans', sans-serif;
+			}
+
+			.search {
+			  width: 100%;
+			  position: relative
+			}
+			
+			.menu{
+				height: 13%;
+				width: 100%;
+				background-color: #6699ff;
+			}
+
+			.searchTerm {
+			  float: left;
+			  width: 100%;
+			  border: 3px solid #00B4CC;
+			  padding: 10px;
+			  height: 50px;
+			  border-radius: 5px;
+			  outline: none;
+			  color: #9DBFAF;
+			}
+			
+			.searchName {
+			  float: left;
+			  width: 100%;
+			  border: 3px solid #00B4CC;
+			  padding: 10px;
+			  height: 50px;
+			  border-radius: 5px;
+			  outline: none;
+			  color: #9DBFAF;
+			  margin-bottom: 50px;
+			}
+
+			.searchTerm:focus{
+			  color: #00B4CC;
+			}
+
+			.searchButton {
+			  position: absolute;  
+			  right: -50px;
+			  width: 75px;
+			  height: 50px;
+			  border: 1px solid #00B4CC;
+			  background: #00B4CC;
+			  text-align: center;
+			  color: #fff;
+			  border-radius: 5px;
+			  cursor: pointer;
+			  font-size: 50px;
+			}
+
+			/*Resize the wrap to see the search bar change!*/
+			.wrap{
+			  width: 30%;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			}
+		</style>
+	<head>
+	<body>
+		<div class="menu">
+				&nbsp&nbsp&nbsp&nbsp<font color="white" size="6px"><a href= "home.html" style="text-decoration:none">WHEELER INSURANCE </font>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp<a href= "nopage.html" style="text-decoration:none"><font color="white" size="4px">Live support </font></a>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href= "login.html" style="text-decoration:none"><font color="white" size="3px">Login & Signup </font></a>
+				<br>&nbsp&nbsp&nbsp&nbsp<font color="white" size="2px">Explore</font>
+				<font color="yellow" size="2px">Plus</font></br>
+		</div>
+		<img src="jake-blucker-316192-unsplash.jpg" height="720px" width="1380px">
+		<div class="wrap">
+		<div class="search">
+		<form action="search.php" method="POST">
+		<input type="text" name="model_number" class="searchTerm" placeholder="Enter your car model no.">
+		
+		<br>
+		<p align="center"><font size="5px" color="white">or</font></p>
+		<input type="text" name="car_name" class="searchName" placeholder="Search by your car name.">
+			<br><br><br>
+		<p align="center"><input type="submit" value="search"></p>
+		</form>
+		</div>
+	</body>
+</html>

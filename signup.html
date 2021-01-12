@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title> Login Form in HTML5 and CSS3</title>
+	<style type="text/css">
+	body{
+	margin: 0 auto;
+	background-image: url("desola-lanre-ologun-709897-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+	}
+	.menu{
+	height: 10%;
+	width: 100%;
+	background-color: #6699ff;
+	}
+	.container{
+	width: 500px;
+	height: 420px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 100px;
+	}
+ 
+	.container img{
+		width: 150px;
+		height: 150px;
+		margin-top: -60px;
+	}
+	 
+	input[type="username"],input[type="password"]{
+		margin-top: 30px;
+		height: 45px;
+		width: 300px;
+		font-size: 18px;
+		margin-bottom: 10px;
+		background-color: #fff;
+		padding-left: 40px;
+	}
+	 
+	.form-input::before{
+		content: "\f007";
+		font-family: "FontAwesome";
+		padding-left: 07px;
+		padding-top: 40px;
+		position: absolute;
+		font-size: 35px;
+		color: #2980b9; 
+	}
+	 
+	.form-input:nth-child(2)::before{
+		content: "\f023";
+	}
+	 
+	.btn-login{
+		padding: 15px 25px;
+		border: none;
+		background-color: #27ae60;
+		color: #fff;
+	}
+	</style>
+</head>
+<body>
+	<div class="menu">
+				&nbsp&nbsp&nbsp&nbsp<a href="home.html" style="text-decoration:none"><font color="white" size="6px">WHEELER INSURANCE </font></a>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href= "nopage.html" style="text-decoration:none"><font color="white" size="4px"><font color="white" size="4px">Live support </font></a>
+				<br>&nbsp&nbsp&nbsp&nbsp<font color="white" size="2px">Explore</font>
+				<font color="yellow" size="2px">Plus</font></br>
+	</div>
+	<div class="container">
+	<img src="customer-login.png">
+		<form method="POST" action="signup.php">
+			<div class="form-input">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>	
+				<input type="username" name="username" placeholder="Enter the User Name"/>	
+			</div>
+			<div class="form-input">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="M0 0h24v24H0V0z"/><path opacity=".87" d="M0 0h24v24H0V0z"/></g><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg>
+				<input type="password" name="password" placeholder="password" /> 
+			</div>
+			<div class="form-input">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="M0 0h24v24H0V0z"/><path opacity=".87" d="M0 0h24v24H0V0z"/></g><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg>
+				<input type="password" name="password" placeholder="confirm password" /> 
+			</div>
+			<input type="submit" type="submit" value="Register" class="btn-login"/></br>
+		</form>
+	</div>
+</body>
+</html>
+
